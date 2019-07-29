@@ -1,15 +1,10 @@
 import React from 'react';
 
-class Titles extends React.PureComponent {
-  state = {};
-  render() {
-    return (
+const Titles = () => (
       <div>
         <h1>Weather Finder</h1>
         <p>Find weather conditions</p>
       </div>
-    );
-  }
-}
+)
 
 export default Titles;
